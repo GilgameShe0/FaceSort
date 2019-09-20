@@ -219,12 +219,15 @@ optim——优化器
     ![img](/images/model_B.png)
 
     2.使用`resnet18`训练结果，效果相对较好:
+
     ![img](/images/resnet18.png)
 
     3.使用`resnet34`训练结果：
+
     ![img](/images/resnet34.png)
 
     matplotlib可视化对比结果：
+    
     ![img](/images/result1.png)
 
     结论：model_B损失函数下降的速度比较慢，到后面出现了NAN的情况，resnet34拟合的结果不是很好，损失函数下降的比较曲折，resnet18的结果相对较好。
