@@ -215,7 +215,10 @@ optim——优化器
     lr=0.1
 
     1.使用`model_B`训练结果：
-    2.使用resnet18训练结果:
+    
+    ![img](/images/model_B.png)
+
+    2.使用`resnet18`训练结果:
     ![img](/images/resnet18.png)
     
     
