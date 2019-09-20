@@ -18,13 +18,13 @@
 
 ##### 主要导入包:
 
-os——读取复制移动文件夹
-shutil——复制文件夹
-torch.untils.data——训练集数据Dataset,DataLoader
-numpy——数组处理
-cv2——读取图片
-torch.nn——继承module
-optim——优化器
+- os——读取复制移动文件夹
+- shutil——复制文件夹
+- torch.untils.data——训练集数据Dataset,DataLoader
+- numpy——数组处理
+- cv2——读取图片
+- torch.nn——继承module
+- optim——优化器
 
 ##### 详细流程
 
@@ -227,7 +227,7 @@ optim——优化器
     ![img](/images/resnet34.png)
 
     matplotlib可视化对比结果：
-    
+
     ![img](/images/result1.png)
 
     结论：model_B损失函数下降的速度比较慢，到后面出现了NAN的情况，resnet34拟合的结果不是很好，损失函数下降的比较曲折，resnet18的结果相对较好。
