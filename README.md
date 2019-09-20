@@ -214,7 +214,9 @@ optim——优化器
     epochs=36, 
     lr=0.1
 
-    1.使用`model B`训练结果：
+    1.使用`model_B`训练结果：
+    2.使用resnet18训练结果:
+    ![img](/images/resnet18.png)
     
     
     
